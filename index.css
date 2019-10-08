@@ -1,3 +1,48 @@
+<<<<<<< HEAD
 body{
     background-color: darkolivegreen
+=======
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    background: linear-gradient(#006400,#008000);
+    font-family: Bitter, serif;
+    text-align: center;
+    font-size: 100%;
+}
+
+main {
+    background: linear-gradient(#dcd5de,#b9acbf);
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    box-shadow: 5px 5px 15px 5px #005000;
+    font-size: 1rem;
+  }
+
+h1 {
+    margin: 3rem 1rem 6rem 1rem;
+}  
+
+h2 {
+    margin: auto 2rem;
+}
+
+.artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+>>>>>>> 30d477ffe735562a56a411ae1e2a37ca54a9233a
 }
